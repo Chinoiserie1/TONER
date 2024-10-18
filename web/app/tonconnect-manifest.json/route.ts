@@ -4,7 +4,7 @@ export async function GET() {
   return NextResponse.json(
     {
       message: {
-        url: "http://localhost:3000",
+        url: "https://toner-jet.vercel.app/",
         name: "TONER",
         iconUrl: "https://ton.vote/logo.png",
       },
